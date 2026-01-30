@@ -1,0 +1,8 @@
+{
+  "plugins": ["./"],
+  "permissions": {
+    "allow": [
+      "Bash(git *)"
+    ]
+  }
+}
