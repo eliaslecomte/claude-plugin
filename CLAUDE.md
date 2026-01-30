@@ -4,6 +4,6 @@
 
 | Scope     | Description                           |
 | --------- | ------------------------------------- |
-| todo      | Todo app                              |
 | claude    | Claude AI tooling                     |
 | tools     | Dev tooling and environment config    |
+| toolbox   | Toolbox claude plugin                 |

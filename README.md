@@ -4,18 +4,11 @@ A personal collection of commands and skills for [Claude Code](https://docs.anth
 
 ## Installation
 
-Clone the repository:
+Add the marketplace and install the plugin:
 
-```bash
-git clone https://github.com/eliaslecomte/claude-plugin.git
 ```
-
-Then add the path to your `~/.claude/settings.json`:
-
-```json
-{
-  "plugins": ["/path/to/claude-plugin"]
-}
+/plugin marketplace add eliaslecomte/claude-plugin
+/plugin install toolbox@elias-plugins
 ```
 
 ## Available Commands

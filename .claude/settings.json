@@ -1,8 +1,11 @@
 {
-  "plugins": ["./"],
   "permissions": {
     "allow": [
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(move \"d:\\\\Sources\\\\claude-plugin\\\\.claude-plugin\\\\plugin.json\" \"d:\\\\Sources\\\\claude-plugin\\\\plugins\\\\elias-toolbox\\\\.claude-plugin\\\\plugin.json\")"
     ]
-  }
+  },
+  "plugins": [
+    "./.claude-plugin"
+  ]
 }
