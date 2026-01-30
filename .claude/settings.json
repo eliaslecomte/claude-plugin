@@ -1,11 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git *)",
-      "Bash(move \"d:\\\\Sources\\\\claude-plugin\\\\.claude-plugin\\\\plugin.json\" \"d:\\\\Sources\\\\claude-plugin\\\\plugins\\\\elias-toolbox\\\\.claude-plugin\\\\plugin.json\")"
+      "Bash(git *)"
     ]
   },
-  "plugins": [
-    "./.claude-plugin"
-  ]
+  "extraKnownMarketplaces": {
+    "elias-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "eliaslecomte/claude-plugin"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "toolbox@elias-plugins": true
+  }
 }
