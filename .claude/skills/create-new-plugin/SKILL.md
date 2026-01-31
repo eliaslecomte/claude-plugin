@@ -20,6 +20,7 @@ Your task is to help the user create a new Claude plugin in this marketplace rep
 plugins/[plugin-name]/
 ├── .claude-plugin/
 │   └── plugin.json
+├── README.md
 └── skills/
     └── [skill-name]/
         └── SKILL.md
@@ -79,15 +80,38 @@ Instructions for the skill.
 Expected output format if applicable.
 ```
 
+### 4. Plugin README
+
+Create `plugins/[plugin-name]/README.md` with installation instructions and skill documentation:
+
+```markdown
+# [Plugin Name]
+
+[Description]
+
+## Installation
+
+\`\`\`bash
+claude plugin install [plugin-name]@elias-plugins
+\`\`\`
+
+## Skills
+
+### [skill-name]
+
+[Brief description of what the skill does and when to use it]
+```
+
 ## Steps
 
 1. Confirm plugin name and description with the user
 2. Create the plugin directory structure
 3. Create the plugin.json manifest
 4. Add at least one skill
-5. Register in marketplace.json
-6. Add any required permissions to settings.json if skills need bash access
-7. Update the README.md to document the new plugin (add a section under "## Plugins" with the plugin name, description, and a table of its skills/commands)
+5. Create the plugin README.md with installation and skill documentation
+6. Register in marketplace.json
+7. Add any required permissions to settings.json if skills need bash access
+8. Update the root README.md to document the new plugin (add a section under "## Plugins" with the plugin name, description, and a table of its skills/commands)
 
 ## Rules
 
