@@ -55,15 +55,7 @@ Add an entry to `.claude-plugin/marketplace.json` in the `plugins` array:
 }
 ```
 
-### 3. Enable Plugin
-
-Add to `.claude/settings.json` in the `enabledPlugins` object:
-
-```json
-"[plugin-name]@elias-plugins": true
-```
-
-### 4. Skill Files
+### 3. Skill Files
 
 Create skills in `plugins/[plugin-name]/skills/[skill-name]/SKILL.md` with this structure:
 
@@ -94,8 +86,7 @@ Expected output format if applicable.
 3. Create the plugin.json manifest
 4. Add at least one skill
 5. Register in marketplace.json
-6. Enable in settings.json
-7. Add any required permissions to settings.json if skills need bash access
+6. Add any required permissions to settings.json if skills need bash access
 
 ## Rules
 

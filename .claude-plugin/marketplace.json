@@ -13,6 +13,16 @@
         "name": "eliaslecomte"
       },
       "category": "productivity"
+    },
+    {
+      "name": "react-native",
+      "source": "./plugins/react-native",
+      "description": "Skills and commands to support React Native (Expo) development",
+      "version": "1.0.0",
+      "author": {
+        "name": "eliaslecomte"
+      },
+      "category": "development"
     }
   ]
 }
