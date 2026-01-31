@@ -27,6 +27,22 @@ The `git:commit-staged-changes` command reads commit scopes from your project's 
 | core      | Core business logic                   |
 ```
 
+## Recommended Complementary Plugins
+
+### General Development
+
+| Plugin | Description | Install |
+| ------ | ----------- | ------- |
+| [Superpowers](https://github.com/obra/superpowers) | Complete dev workflow with design, planning, execution, and verification phases | `/plugin marketplace add obra/superpowers-marketplace`<br>`/plugin install superpowers@superpowers-marketplace` |
+
+### React Native Development
+
+Use alongside the **react-native** plugin:
+
+| Plugin | Description | Install |
+| ------ | ----------- | ------- |
+| [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | React and React Native best practices (40+ rules), includes `react-native-guidelines` and `react-best-practices` | `npx skills add vercel-labs/agent-skills` |
+
 ## Plugins
 
 ### toolbox

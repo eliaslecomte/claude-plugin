@@ -8,16 +8,6 @@ Skills and commands to support React Native (Expo) development.
 claude plugin install react-native@elias-plugins
 ```
 
-## Recommended: Vercel Agent Skills
-
-This plugin focuses on Expo-specific workflows. For comprehensive React Native best practices, also install the Vercel agent skills:
-
-```bash
-npx skills add vercel-labs/agent-skills
-```
-
-This adds `react-native-guidelines` and `react-best-practices` skills that complement this plugin.
-
 ## Skills
 
 ### expo-troubleshoot
