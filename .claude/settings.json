@@ -1,8 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git *)"
+      "Bash(git *)",
+      "WebFetch(domain:vercel.com)"
     ]
+  },
+  "enabledPlugins": {
+    "toolbox@elias-plugins": true
   },
   "extraKnownMarketplaces": {
     "elias-plugins": {
@@ -11,8 +15,5 @@
         "repo": "eliaslecomte/claude-plugin"
       }
     }
-  },
-  "enabledPlugins": {
-    "toolbox@elias-plugins": true
   }
 }
