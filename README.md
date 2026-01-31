@@ -38,3 +38,13 @@ A collection of commands and skills for everyday development tasks.
 | Command | Description |
 | ------- | ----------- |
 | `git:commit-staged-changes` | Generate conventional commit messages for staged changes. Follows the conventional commits format with configurable types and scopes from `CLAUDE.md`. |
+
+### react-native
+
+Skills and commands to support React Native (Expo) development.
+
+#### Skills
+
+| Skill | Description |
+| ----- | ----------- |
+| `expo-troubleshoot` | Helps troubleshoot common Expo and React Native issues including build errors, runtime issues, and debugging. |

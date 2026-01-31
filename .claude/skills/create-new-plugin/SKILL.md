@@ -87,6 +87,7 @@ Expected output format if applicable.
 4. Add at least one skill
 5. Register in marketplace.json
 6. Add any required permissions to settings.json if skills need bash access
+7. Update the README.md to document the new plugin (add a section under "## Plugins" with the plugin name, description, and a table of its skills/commands)
 
 ## Rules
 
