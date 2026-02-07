@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(git *)",
-      "WebFetch(domain:vercel.com)"
+      "Bash(git commit:*)",
+      "Bash(npm exec:*)",
+      "Bash(npx @playwright/mcp@latest --help:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:vercel.com)",
+      "WebFetch(domain:www.npmjs.com)"
     ]
   },
   "enabledPlugins": {
