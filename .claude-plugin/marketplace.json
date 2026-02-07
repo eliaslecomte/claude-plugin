@@ -23,6 +23,16 @@
         "name": "eliaslecomte"
       },
       "category": "development"
+    },
+    {
+      "name": "web",
+      "source": "./plugins/web",
+      "description": "General web testing tools including browser automation, accessibility, and performance testing",
+      "version": "1.0.0",
+      "author": {
+        "name": "eliaslecomte"
+      },
+      "category": "development"
     }
   ]
 }

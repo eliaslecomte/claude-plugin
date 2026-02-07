@@ -64,3 +64,22 @@ Skills and commands to support React Native (Expo) development.
 | Skill | Description |
 | ----- | ----------- |
 | `expo-troubleshoot` | Helps troubleshoot common Expo and React Native issues including build errors, runtime issues, and debugging. |
+
+### web
+
+General web testing tools including browser automation, accessibility, and performance testing. Powered by [Playwright CLI](https://github.com/microsoft/playwright-cli).
+
+#### Setup
+
+Install the Playwright CLI and browser:
+
+```bash
+npm install -g @playwright/cli@latest
+playwright-cli install-browser
+```
+
+#### Skills
+
+| Skill | Description |
+| ----- | ----------- |
+| `playwright-cli` | Browser automation via CLI for web testing, form filling, screenshots, data extraction, and test generation. |

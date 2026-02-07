@@ -8,3 +8,4 @@
 | tools        | Dev tooling and environment config    |
 | toolbox      | Toolbox claude plugin                 |
 | react-native | React Native (Expo) plugin            |
+| web          | Web plugin                            |
