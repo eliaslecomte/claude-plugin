@@ -34,3 +34,7 @@ Browser automation via CLI for web testing, form filling, screenshots, and data 
 - Test generation
 - Tracing
 - Video recording
+
+### web-design-guidelines
+
+UI code review against [Web Interface Guidelines](https://github.com/vercel-labs/agent-skills) from Vercel. 100+ rules covering accessibility, forms, animation, typography, performance, dark mode, and internationalization.

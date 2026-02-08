@@ -1,0 +1,6 @@
+{
+  "name": "react",
+  "description": "React and Next.js best practices, performance optimization, and composition patterns",
+  "version": "1.0.0",
+  "author": { "name": "eliaslecomte" }
+}

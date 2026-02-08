@@ -35,14 +35,6 @@ The `git:commit-staged-changes` command reads commit scopes from your project's 
 | ------ | ----------- | ------- |
 | [Superpowers](https://github.com/obra/superpowers) | Complete dev workflow with design, planning, execution, and verification phases | `/plugin marketplace add obra/superpowers-marketplace`<br>`/plugin install superpowers@superpowers-marketplace` |
 
-### React Native Development
-
-Use alongside the **react-native** plugin:
-
-| Plugin | Description | Install |
-| ------ | ----------- | ------- |
-| [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | React and React Native best practices (40+ rules), includes `react-native-guidelines` and `react-best-practices` | `npx skills add vercel-labs/agent-skills` |
-
 ## Plugins
 
 ### toolbox
@@ -55,6 +47,17 @@ A collection of commands and skills for everyday development tasks.
 | ------- | ----------- |
 | `git:commit-staged-changes` | Generate conventional commit messages for staged changes. Follows the conventional commits format with configurable types and scopes from `CLAUDE.md`. |
 
+### react
+
+React and Next.js best practices, performance optimization, and composition patterns. Skills sourced from [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills).
+
+#### Skills
+
+| Skill | Description |
+| ----- | ----------- |
+| `react-best-practices` | 40+ React/Next.js performance optimization rules across 8 categories. |
+| `composition-patterns` | Composition patterns for scalable React components: compound components, state lifting, explicit variants. |
+
 ### react-native
 
 Skills and commands to support React Native (Expo) development.
@@ -64,6 +67,7 @@ Skills and commands to support React Native (Expo) development.
 | Skill | Description |
 | ----- | ----------- |
 | `expo-troubleshoot` | Helps troubleshoot common Expo and React Native issues including build errors, runtime issues, and debugging. |
+| `react-native-skills` | 35+ React Native/Expo best practices from Vercel covering performance, layout, animations, and platform patterns. |
 
 ### web
 
@@ -83,3 +87,4 @@ playwright-cli install-browser
 | Skill | Description |
 | ----- | ----------- |
 | `playwright-cli` | Browser automation via CLI for web testing, form filling, screenshots, data extraction, and test generation. |
+| `web-design-guidelines` | UI code review against Web Interface Guidelines from Vercel. 100+ rules for accessibility, performance, and UX. |
